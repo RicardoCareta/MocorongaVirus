@@ -1,0 +1,31 @@
+.checkUp-form {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .checkUp-row {
+    display: flex;
+    padding-bottom: 10px;
+  }
+  
+  .checkUp-row .field-name {
+    width: 70%;
+    margin-right: 1%;
+  }
+  
+  .checkUp-form .checkUp-row .field-prognostic {
+    width: 100%;
+  }
+  
+  #sendBtn {
+    background-color: #a8fff3;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    width: 50%;
+  }
+  
