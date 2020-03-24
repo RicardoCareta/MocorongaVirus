@@ -1,0 +1,53 @@
+.card-patient {
+    width: 70%;
+    max-width: 400px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.card-patient .card-patient-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-patient .card-patient-header .card-patient-header-name-age {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 3;
+}
+
+.card-patient-body {
+    padding: 3px 0px;
+}
+
+.card-patient-footer-buttons{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.card-patient-footer-corona .corona-button, .card-patient-footer-done .done-button {
+    display: flex;
+    flex: 1;
+    padding-right: 5px;
+}
+
+.card-patient-footer-corona .corona-button{
+    background-color : #d32f2f;
+    margin-right: 5px;
+}
+
+.card-patient-footer-corona .corona-button:hover{
+    background-color : #c62828;
+}
+
+.card-patient-footer-done .done-button {
+    background-color: #388e3c ;
+}
+
+.card-patient-footer-done .done-button:hover {
+    background-color: #2e7d32;
+}
